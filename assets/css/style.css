@@ -1,0 +1,46 @@
+
+
+
+/* Footer */
+.xsmallimg {
+    height: 15px;
+    width: 15px;
+}
+
+#social-networks {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 0%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    /* Adjust as needed */
+    background-color: #F1F1F1;
+    text-align: center;
+}
+
+.footcol {
+    left: 0%;
+}
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+
+}
+
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    
+}
+
+
+/* Media query: tablets and larger (1200px and up) */
+@media screen and (min-width: 1200px) {
+
+}

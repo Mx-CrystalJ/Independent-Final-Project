@@ -1,131 +1,316 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Mental Mountain Hub
 
-Welcome USER_NAME,
+![The Mental Mountain Hub - Project Banner](/assets/images/The%20Mental%20Mountain%20Hub.png)
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
 
-You can safely delete this README.md file or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **June 18, 2024**
+<p align="center">
+| <a href="https://mx-crystalj.github.io/IP1-The-Mental-Mountain-Hub/" target="_blank">Live Project</a> |
+</p>
 
-## Gitpod Reminders
+## Introduction
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+The Mental Mountain Hub represents the first individual portfolio project given to me for the Code Institute Full Stack Software Developer Bootcamp. The learning outcomes challenged me to utilise HTML5, CSS3 & Bootstrap to meet the requirements for the brief provided about mental health awareness.
 
-`python3 -m http.server`
+Live project: <a href="https://mx-crystalj.github.io/IP1-The-Mental-Mountain-Hub/" target="_blank">The Mental Mountain Hub</a>
 
-A blue button should appear to click: _Make Public_,
+<h2 align="center" id="TOC">Table of Contents</h2>
 
-Another blue button should appear to click: _Open Browser_.
+* [The Mental Mountain Hub](#the-mental-mountain-hub)
+  - [Introduction](#introduction)
+  - [Table of Contents](#TOC)
+  - [Project Ouline](#project-outline)
+* [Project Planning](#project-planning)
+    - [UX Design](#ux-design)
+      - [User Stories](#user-stories)
+      - [Colors](#colors)
+      - [Fonts](#fonts)
+      - [Imagery](#imagery)
+      - [Wireframes](#wireframes)
+* [Features](#features)
+  - [General Features](#general-features)
+    - [Navigation and Carousel Section](#navigation-and-carousel-section)
+    - [Bootstrap Cards](#bootstrap-cards)
+    - [Links and Buttons](#links-and-buttons)
+  - [Resnposive Design](#responsive-design)
+* [Built With](#built-with)
+  - [Technology and Languages](#technologies-and-languages)
+  - [Libraries and Frameworks](#libraries-and-frameworks)
+  - [Tools & Programs](#tools-and-programs)
+* [Development](#deployment)
+* [Testing](#testing)
+* [Credits](#credits)
+  - [Code](#code)
+  - [Content Research](#content-research)
+  - [Media](#media)
+  - [Acknowledgements](#acknowledgements)
 
-To run a backend Python file, type `python3 app.py` if your Python file is named `app.py`, of course.
 
-A blue button should appear to click: _Make Public_,
+<p align="right"><a href="#the-mental-mountain-hub">Back To Top</a></p>
 
-Another blue button should appear to click: _Open Browser_.
+## Project Outline
 
-By Default, Gitpod gives you superuser security privileges. Therefore, you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+The Mental Mountain Hub is a fictional organisation dedicated to the support of bettering the mental health of society members, focusing on providing a free guide to obtaining good mental health and regonising common signs. The page I created takes advantage of the idea that natrure is calming and a great way to turn looking after yoursef into a constant natural habit.
 
-To log into the Heroku toolbelt CLI:
+The final deployment fufils the requirements being responsive to modern device standards, adheres to accessibility requirements and is aesthetically pleasing with a focus on needs and well-being.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Key Objectives
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you, so do not share it. If you accidentally make it public, you can create a new one with _Regenerate API Key_.
+- The user experience requires me to utilise effective navigation and layout in order to provide simplicity and calming effects.
+- Clear presentation of content with options for more information.
+- Responsive design adhering to standards and accessibility.
+- Color and imagery considers the well-being of the end user.
 
-### Connecting your Mongo database
+## UX Design
 
-- **Connect to Mongo CLI on a IDE**
-- navigate to your MongoDB Clusters Sandbox
-- click **"Connect"** button
-- select **"Connect with the MongoDB shell"**
-- select **"I have the mongo shell installed"**
-- choose **mongosh (2.0 or later)** for : **"Select your mongo shell version"**
-- choose option: **"Run your connection string in your command line"**
-- in the terminal, paste the copied code `mongo "mongodb+srv://<CLUSTER-NAME>.mongodb.net/<DBname>" --apiVersion 1 --username <USERNAME>`
-  - replace all `<angle-bracket>` keys with your own data
-- enter password _(will not echo **\*\*\*\*** on screen)_
+## User Stories
 
-------
+Adults - I want to know the best way to improve and learn about my mental health so I can feel confident knowing that I am doing everything I can beyond waiting for referals to services. I want to easily find resources to support my self-help journey and possibly find other services that can be used.
 
-## Release History
+Students/Children - I want to find resources that help me when I am feeling overwhelmed, anxious, stressed or depressed. I want to be able to talk to be abe to find resources to services where I can talk to someone when I am worried and need help managing my mental health.
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+Medical Professionals - I want to be able to reassure paitents that there are services that provide a safe and comforting environment with accurate and detailed information presented in a way that allows my paitents to futher their thirst for knowledge that will benifit their physical and mental health. I want to be an easy point of access to these resources that will supplement sessions and care plans by explaining anxiety, depression, ect.
 
-**June 18, 2024,** Add Mongo back into template
 
-**June 14, 2024,** Temporarily remove Mongo until the key issue is resolved
+<hr>
+<p align="right"><a href="#the-mental-mountain-hub">Back To Top</a></p>
 
-**May 28 2024:** Fix Mongo and Links installs
+## Colors
 
-**April 26 2024:** Update node version to 16
+Color selection is a key component to any design process, however with the nature of the project this consideration is even greater because of the improtant nature of mental health to the end user, there is a possibilty for negatively impacting their well-being, mental health and contibuting to trauma by overwhlming them hence the need for using as little colour for the background as necessary to keep the flow.
 
-**September 20 2023:** Update Python version to 3.9.17.
+The artwork of this project was essential in creating a welcoming and appropriate page for the end user and their specific needs. Combining general color theory in white space, mental health specific color theory, my own personal experience of bettering mental health and design, I was able to determine an appropriate color scheme that is aesthetically pleasing, calming and engaging.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+To ensure compliance to standards, the [Colour Contrast Checker](https://colourcontrast.cc/) (also available as extension on [Chrome Web Store](https://chromewebstore.google.com/detail/colour-contrast-checker/nmmjeclfkgjdomacpcflgdkgpphpmnfe)) was used.<br>
+Both the [WebAIM](https://webaim.org/resources/contrastchecker/) and the [Adobe](https://color.adobe.com/create/color-contrast-analyzer) color contrast tools were used to corroborate these results.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+### Main Palette
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+- Cyan `#a9ebe8` `--cyan light blue`
+- Light Blue `#E4B7E5` `--light blue`
+- White `#ffffff` `--white`
+- Light Green `#efefeb` `--light green`
+- Black `#000000` `--black`
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+[ColorContrastChecker](/documentation/images/Color%20Contrast%20Checker%201.png)
+[Adobe](/documentation/images/Color%20Contrast%20Checker%202.png)
+[WebAIM](/documentation/images/Color%20Contrast%20Checker%203.png)
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+Due to the potential impact of color on mental health, additional research and feedback was found to ensure an appropriate selection was made for this project. Additional research in the documentation [research](/documentation/research.md).
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+<hr>
+<p align="right"><a href="#the-mental-mountain-hub">Back To Top</a></p>
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Fonts
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+When looking in Google Fonts I wanted to ensure a positive user experience whilst visiting the page in which they wuld be able to clearly see the sections and headings.<br>
+Two sans-serif fonts were selected for the project, and implemented via [Google Fonts](https://fonts.google.com) using a direct import code within the style.css file.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+[Lexend Giga](https://fonts.google.com/specimen/Lexend+Giga) ois a crisp and clear font used within logos, headings other page elements that need to be seen as important by the user.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+[Prompt](https://fonts.google.com/specimen/Prompt) is the primary content font ensuring content importance and complementing the Lexend Giga font choice by being slightly bigger and thicker than the headings.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+<hr>
+<p align="right"><a href="#the-mental-mountain-hub">Back To Top</a></p>
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+### Wireframes
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+These wireframes were created using [Balsamiq](https://balsamiq.com/) to highlight key features in the layout that work to guide the user experience. While using a [Bootstrap](https://getbootstrap.com/) framework with its available components that allow for ease of navigation and structured content with a fully responsive design.
 
-------
+**Mobile Wireframe**
+![Mobile Wireframe](/documentation/images/Initial%20Plan%20iPhone.png)
 
-## FAQ about the uptime script
+**Tablet Wireframe**
+![Tablet Wireframe](/documentation/images/Initial%20Plan%20iPad.png)
 
-**Why have you added this script?**
+**Desktop Wireframes**
+![Desktop Wireframe 1](/documentation/images/Initial%20Plan%20Desktop.png)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
 
-**How will this affect me?**
+<hr>
+<p align="right"><a href="the-mental-mountain-hub">Back To Top</a></p>
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+## Imagery
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+The image I selected became a key influence and neccessary in the design of the overall project, including the naming, branding and metaphors.
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+With the requirements of the end user, I found an image that would fulfil the specific criteria;
+- Thematic link to mental health that could be used for branding purposes
+- Identifiable, appealing, and calming to the target audiences
+- Promotes inclusivity and equality by being without a specfic target
+- Variety for use and relevance in the project
+- Follows color research to maintain user well-being
 
-**So….?**
+After looking through nature inspired images, I choose the mountains and lake during sunset.
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+This selection fulfilled the criteria set out and offered further inspiration.
+- It maintains a consistent theme and works well as a brand image and name
+- Usage of the same image easily identifiable and has a calming minfullness appeal
+- Adopting research that has been applied to mental health, the use of nature adopts universal representation and inclusivity
+- The image follows color requirements, but also informed adjustments to the color palette
 
-**Can I opt out?**
+![Mountain Image](/assets/images/73bfb902-44a1-4f97-b790-0d6099074d69.jpg)
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+<hr>
+<p align="right"><a href="#the-mental-mountain-hub">Back To Top</a></p>
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+## Features
 
-**Anything more?**
+### General Features
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+The criteria requested that the page consists of sectioned information with links, resources and other elements that contribute to user experience.
 
----
+When coding the project, receiving feedback and implementing the [Bootstrap Framework](https://getbootstrap.com/docs/5.3/getting-started/introduction/) the features and design changed from the original wireframe and colour scheme.
 
-Happy coding!
+Adjustments:
+
+- Adding Grid to page instead of just resources.<br>
+This was done to provide the user an easy navigation through sections they would most likely be seeking to interact with when needing immediate help.
+
+- Changing the Navbar to the top of the page instead of under the Slider section.<br>
+This decision was made as a result of personal reflection and user feedback to provide a more enjoyable user experience because the hero section doesn't include the sites name and when viewed on an iPad or mobile device the section takes the users attention.
+
+#### Navigation and Carousel Section
+
+I chose to use a bold and welcoming slider section for the start of the page using the [Bootstrap Carousel](https://getbootstrap.com/docs/5.3/components/carousel/)
+
+This gives a clear indication of the content by using a Carousel Jumbotron to show positive quotes as well as imagery that links to the brand and identity of the organisation.
+
+The navigation bar is a Bootstrap component that allows for easy navigation around the site using a familiar method for a positive user experience that is resposive.
+
+![Navigation & Carousel Desktop](/documentation/images/Desktop%20Hero%20+%20Nav.png)
+![Navigation & Carousel Mobile/Tablet](/documentation/images/Phone%20+%20Tablet%20Hero%20+%20Nav.png)
+
+#### Bootstrap Cards
+
+I chose the [Bootstrap Card](https://getbootstrap.com/docs/5.3/components/card/) feature for the Tips + Resources content of the page as this allowed for a clean organisation of the information I wanted for the main content.
+
+Within these sections I have given additional resources and links via buttons for ease.
+
+![Tips Cards](/documentation/images/Tips%20+%20Common%20Issues%20Card.png)
+![Resources Cards](/documentation/images/Resources%20Card.png)
+
+#### Links and Buttons
+
+Although the page used a variety of colours for buttons to adhere to contrast requirements, each link and button does maintain a level of consistency.
+
+<hr>
+<p align="right"><a href="#the-mental-mountain-hub">Back To Top</a></p>
+
+### Responsive Design
+
+Using the [Bootstrap Framework](https://getbootstrap.com/docs/5.3/getting-started/introduction/) grid allowed for an implementation that is responsive but additional CSS + media queries were needed for presentation.
+
+Though it took some experimentation and troubleshooting, I have been able to create a page that is fully responsive to modern standards.
+
+As a result of my debugging within Dev Tools and help from other students to identify and resolve responsiveness issues I believe I have a better understanding of how to use Bootstrap for future projects.
+
+[Am I Responsive](https://ui.dev/amiresponsive?url=https://mx-crystalj.github.io/IP1-The-Mental-Mountain-Hub/)<br>
+![Am I Responsive](/documentation/images/Responsive%20Full.png)<br>
+![Mobile](/documentation/images/Responsive%20Mobile.png)<br>
+![ipad Mini](/documentation/images/Responsive%20iPad.png)<br>
+![Dektop](/documentation/images/Responsive%20Desktop.png)<br>
+
+<hr>
+<p align="right"><a href="#the-mental-mountain-hub">Back To Top</a></p>
+
+
+## Built With
+
+### Technologies and Languages
+![Static Badge](https://img.shields.io/badge/HTML5-Language-grey?logo=html5&logoColor=%23ffffff&color=%23E34F26)
+![Static Badge](https://img.shields.io/badge/CSS3-Language-grey?logo=css3&logoColor=%23ffffff&color=%231572B6)
+
+<a href="https://git-scm.com/" target=_blank_>![Static Badge](https://img.shields.io/badge/Git-v2.46.2-grey?logo=git&logoColor=%23ffffff&color=%23F05032)</a>
+<a href="https://github.com/" target="_blank">![Static Badge](https://img.shields.io/badge/GitHub-Repo_Hosting-white?logo=github&logoColor=%23ffffff&color=%23181717)</a>
+<a href="https://www.gitpod.io/" target="_blank">![Static Badge](https://img.shields.io/badge/Gitpod-IDE-white?logo=gitpod&logoColor=%23ffffff&color=%23FFAE33)</a>
+
+### Libraries and Frameworks
+<a href="https://getbootstrap.com/" target="_blank">![Static Badge](https://img.shields.io/badge/Bootstrap-v5.3.3-grey?logo=bootstrap&logoColor=%23ffffff&color=%237952B3)</a>
+<a href="#" target="_blank">![Static Badge](https://img.shields.io/badge/Font_Awesome-Icons-grey?logo=fontawesome&logoColor=%23ffffff&color=%23538DD7)</a>
+<a href="#" target="_blank">![Static Badge](https://img.shields.io/badge/Google_Fonts-Fonts-grey?logo=googlefonts&logoColor=%23ffffff&color=%234285F4)</a>
+
+
+### Tools and Programs
+
+<a href="https://balsamiq.com/wireframes/" target="_blank">![Static Badge](https://img.shields.io/badge/Balsamiq-Wireframes-grey?logoColor=%23ffffff&color=%23CC0100)</a>
+<a href="https://canva.com/" target="_blank">![Static Badge](https://img.shields.io/badge/Canva-grey?logoColor=%23ffffff&color=%23CC0100)</a>
+
+
+<hr>
+<p align="right"><a href="#the-mental-mountain-hub">Back To Top</a></p>
+
+## Deployment
+
+
+This [GitHub](https://github.com/) project was created using the [Code Institute Template](https://github.com/Code-Institute-Org/ci-full-template) ensuring all necessary dependencies were included when opening within the designated workspace on the [Gitopod IDE](https://www.gitpod.io/).
+
+Setup a repo using this method and template:
+1. Login to your GitHub profile.
+2. Navigate to the Code Institute Full Template
+3. Click the dropdown for 'Use this template' and select "Create a new repository"
+4. Generate the necessary name and description for your repo and click 'Create repository from template'
+5. Navigate to the new repo and click the green 'Open' button with the Gitpod logo<br>
+**IMPORTANT - This button should only be clicked once to generate the new IDE workspace**
+6. You can now work on your repository within the Code Institute Gitpod IDE workspace
+
+Once the project repo is created, an early deployment for the live project should performed.<br>
+This allows for early and continuous testing using a variety of devices, as well as the Dev Tools available within browsers.
+
+Additional information on the deployment process can be found on the official [GitHub Docs](https://docs.github.com/en/pages/quickstart)
+
+
+
+<hr>
+<p align="right"><a href="#the-mental-mountain-hub">Back To Top</a></p>
+
+## Testing
+
+Testing and validation os the website was carried out throughout the course of the project.
+
+This included regular debugging and testing using the Dev Tools as provided within Chrome Browser.
+
+[HTML Validation](https://validator.w3.org/)<br>
+![HTML Validation](/documentation/images/HTML%20Validator%201.png)
+
+[CSS Validation](https://jigsaw.w3.org/css-validator/)<br>
+![CSS Validation](/documentation/images/CSS%20Validator%202.png)
+
+Several bugs appeared in the duration of the project:
+- Centering Carousel + took up too much space on desktop = adding white space on sides + CSS media query. 
+- Favicon not loading = moved to root directory.
+- Desktop view grid errors = deleted align-items-center.
+- Vid lengths too big = removed frameborder.
+
+<hr>
+<p align="right"><a href="#the-mental-mountain-hub">Back To Top</a></p>
+
+## Credits
+
+### Code
+
+Project and primary learning supplied by [Code Institute](https://codeinstitute.net/ie/)<br>
+Supplemental learning resources within the project:
+
+- 
+- [Bootstrap Docs](https://getbootstrap.com/docs/5.3)
+- [Gemini](https://gemini.google.com) as a learning and content creation tool, no code was directly used.
+
+All additional sources [research](/documentation/research.md).
+
+### Content Research
+
+The additional [research](/documentation/research.md) is listed and can be found within the documentation folder of this repo.
+
+### Media
+
+- Static badges for README documentation [Shields.io](https://shields.io/badges/static-badge) & [Simple Icons](https://simpleicons.org/)
+- Youtube (https://youtube.com/)
+- Canva (https://canva.com/)
+
+### Acknowledgements
+
+- Mathew and Wai Yi Wong for contributing to my debugging process.
+
+<hr>
+<p align="right"><a href="#the-mental-mountain-hub">Back To Top</a></p>
